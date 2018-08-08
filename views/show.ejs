@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="show.css">
+    <style>
+    .container{
+        border: 3px solid black;
+        width: 450px;
+        margin: 40px auto;
+        padding: 15px;
+    }
+    button{
+        width: 200px;
+        height: 30px;
+        border-radius: 10px;}
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h2>Submitted Information:</h2>
+        <p>Name: <%= name%></p>
+        <p>Location: <%= location%></p>
+        <p>Lanugage: <%= language%></p>
+        <p>Comment: <%= comment%></p>
+
+        <button><a href="/back">Go Back!</a></button>
+    </div>
+
+</body>
+</html>
